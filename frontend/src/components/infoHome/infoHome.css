@@ -1,0 +1,272 @@
+.contentForImageZoom {
+  width: 100%;
+  height: 550px;
+  background-color: #212223;
+  margin-top: 80px;
+  margin: auto;
+}
+.imgContainerForLookUsers {
+  display: flex;
+  align-items: center;
+}
+.imageClass__house {
+  width: 732px;
+  margin: auto;
+}
+.mainContainerForDisplayCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  margin-left: 70px;
+}
+.contentParagraphTitle__house {
+  font-family: 'FiraGO Regular', sans-serif;
+  font-size: 11px;
+  max-width: 600px;
+  margin-top: 20px;
+  position: relative;
+  margin-bottom: 400px;
+}
+.asideContentFunction__house {
+  position: absolute;
+  box-shadow: 0 4px 3px 0 rgba(55, 58, 64, 0.1);
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid #f1f1f1;
+  height: 500px;
+  margin-left: 120px;
+  margin-bottom: 600px;
+  background-color: #fff;
+}
+.paragraphPrice__house {
+  padding: 20px;
+  font-size: 17px;
+  color: #18a745;
+}
+.contentFartiHouse__class {
+  padding: 20px;
+}
+.spanFartiHouse__class {
+  font-family: 'FiraGO Regular', sans-serif;
+  font-size: 14px;
+}
+.hr__contentHouse {
+  width: 90%;
+  margin: auto;
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  outline: none;
+  height: 1px;
+}
+.contentForInformationHours {
+  text-align: center;
+  max-width: 300px;
+  padding: 15px;
+  font-family: 'FiraGO Regular', sans-serif;
+  font-size: 13px;
+  background-color: #f6fffa;
+  border: 1px solid #bff0d8;
+  color: #26262a;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.contentIconsParagraphsHouseContent {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.safeHouse__content > span {
+  font-family: 'FiraGO Regular', sans-serif;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #18a745;
+  width: 330px;
+  margin: auto;
+  margin-top: 10px;
+  margin: 15px;
+  height: 55px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+.col {
+  color: #18a745;
+  font-size: 21px !important;
+}
+.houseSafety__class {
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.heartIcon__homeClass {
+  color: red;
+}
+.saveParagraph__homeClass {
+  font-family: 'FiraGO Regular', sans-serif;
+  font-size: 13px;
+}
+.mainSpanContainer__homeClass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  width: 150px;
+  margin: auto;
+  height: 50px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+.saveContent__houseClass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mto {
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.svgIcon--root {
+  width: 20px;
+}
+.containerCalendarHouse__class,
+.viewContainerForUp__class,
+.idContainerForUP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  margin-left: 10px;
+}
+.mtsd,
+.roomF {
+  color: #888;
+}
+.contentInformationSide {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+.callIcon__mobileHouseClass {
+  display: flex;
+  align-items: center;
+  background-color: #18a745;
+  border-radius: 30px;
+  width: 180px;
+  color: #fff;
+  height: 44px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.paragraph__containerDirection,
+.directionContent__infoHouse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.directionContent__infoHouse > p {
+  margin-left: 8px;
+}
+.wht {
+  color: #fff;
+}
+.infohouse__classhs {
+  display: flex;
+  align-items: center;
+}
+.contentBigBorderForDesign {
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.contentSVG__rooms {
+  width: 35px;
+  color: #888;
+}
+.contentChairMan__classHouse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 120px;
+}
+.sartulebiHouse__contentClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+}
+.contentDirection__forChair {
+  padding-left: 15px;
+}
+.contentDirection__Sartulebi {
+  padding-left: 8px;
+}
+.descriptionContent__classHome {
+  padding: 15px;
+  font-size: 16px;
+  color: #888;
+}
+.paragraphComment__houseClass {
+  color: #26262a;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.sivrceContentInfo__homeClass {
+  padding: 15px;
+}
+.infoSivrce__contentHomeClass {
+  font-size: 17px;
+}
+.contentSivrcisInfo__houseClass {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.contInfoSVG {
+  width: 20px;
+  fill: #888;
+}
+.spanInfos {
+  margin-left: 10px;
+  margin-top: 3px;
+  font-size: 13px;
+  color: #212223;
+}
+.contentStandartInfos__homeClass,
+.sadzinebeliInfos__homeClass,
+.aivaniInfoContent__homeClass,
+.contentVeranda__homeClass,
+.lojiContent__homeClass,
+.sveliWertiliContent__homeClass,
+.gatbobaClass__homeContent,
+.openCloseIcon__homeClass,
+.parkingPlace__classHome,
+.satavsoContentInformation__homeClass {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.mbqw {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+.dqsa {
+  width: 15px;
+  margin-left: 5px;
+}
+.sqa {
+  color: #0f71eb;
+  cursor: pointer;
+}
+.sqa:hover {
+  text-decoration: underline;
+}

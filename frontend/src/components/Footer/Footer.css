@@ -1,0 +1,144 @@
+footer {
+  background-color: transparent;
+  padding-top: 60px;
+  border-top: 1px solid lightgray;
+  width: 100%;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuContentFor__footer {
+  display: flex;
+  flex-direction: column;
+  font-family: MarkGeoCaps;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+}
+.menu__spanTxtFooter {
+  font-weight: bold;
+}
+.contentFlexFooter {
+  display: flex;
+  align-items: center;
+}
+.developer__menuTxtFooter,
+.helpContentTxt__footer,
+.contentWebRues__footer {
+  font-size: 13px;
+}
+.developer__menuTxtFooter:hover,
+.helpContentTxt__footer:hover,
+.contentWebRues__footer:hover,
+.whatsapp__iconForInstagram:hover {
+  color: #29b24e;
+  user-select: none;
+  text-decoration-line: underline;
+}
+.footerIcon__forFB {
+  color: #000;
+  font-size: 30px !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.footerIcon__forInstagram,
+.whatsapp__iconForInstagram {
+  color: #000;
+  transition: all 0.2s ease;
+  font-size: 30px !important;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.footerIcon__forFB:hover,
+.footerIcon__forInstagram:hover {
+  color: #29b24e;
+}
+.inputContentSubmiter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  width: 250px;
+  height: 44px;
+}
+.inputContentSubmiter > input {
+  height: 38px;
+  outline: none;
+  width: 230px;
+  padding-left: 15px;
+  caret-color: #29b24e;
+  border: none;
+  background-color: transparent;
+}
+.inputContent__foot::placeholder {
+  font-family: MarkGeoCaps;
+}
+.textArea__contentFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerClass__txtArea {
+  outline: none;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-left: 7px;
+  border: 1px solid lightgray;
+  background-color: transparent;
+  margin-top: 15px;
+}
+.footerClass__txtArea::placeholder {
+  font-family: MarkGeoCaps;
+}
+.contentSystemSend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 650px;
+}
+.sentMessage__btn {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 190px;
+  height: 44px;
+  background-color: #29b24e;
+  margin-top: 15px;
+  font-family: MarkGeoCaps;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.sentMessage__btn:hover {
+  background-color: #25c26f;
+}
+.copyRight__contentFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.copyRightParagraph__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: MarkGeoCaps;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+}
+.content__iconsFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgray;
+}

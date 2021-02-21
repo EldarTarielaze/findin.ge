@@ -1,0 +1,117 @@
+.container .box {
+  position: relative;
+  width: 500px;
+  margin-right: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  height: 500px;
+  overflow: hidden;
+  transition: 0.5s;
+  border-radius: 7px;
+}
+.developers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box:hover {
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+.container .box .imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container .box .imgBox:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(to top, #2b1920, rgba(43, 25, 25, 0.6));
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: all 0.1s ease;
+}
+.container .box:hover .imgBox:before {
+  opacity: 1;
+}
+.container .box .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+}
+.container .box .content h2 {
+  color: #fff;
+  transition: all 0.4s ease;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-family: MarkGeoCaps;
+  font-size: 20px;
+  transform: translateY(100px);
+}
+
+.container .box:hover .content h2 {
+  transform: translateY(0);
+}
+
+.container .box .content p {
+  color: #fff;
+  transform: translateY(200px);
+  transition: all 0.4s ease;
+  font-family: MarkGeoCaps;
+  font-size: 14px;
+}
+.container .box:hover .content p {
+  transform: translateY(0);
+  transition-delay: 0.2s;
+}
+.developers__p {
+  font-family: MarkGeoCaps;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 27px;
+}
+.popularstreet__btm {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 20px;
+  user-select: none;
+  margin-bottom: 20px;
+}
+.popularStreet__Icon {
+  margin: 15px !important;
+  font-size: 45px !important;
+  border-radius: 15px;
+  user-select: none;
+  color: #a55eea;
+  width: 3rem !important;
+  fill: #a55eea !important;
+  border: 5px solid #a55eea;
+}
+.popularStreet__Batumi {
+  color: #212223;
+  font-family: MarkGeoCaps;
+  font-weight: 700;
+}

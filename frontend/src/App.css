@@ -1,0 +1,67 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-mrgvlovani-caps/css/bpg-mrgvlovani-caps.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@font-face {
+  font-family: MarkDefault;
+  src: url("./fonts/MarkGEO-Regular.ttf");
+}
+@font-face {
+  font-family: MarkGeoCaps;
+  src: url("./fonts/MarkGEOCAPS-Regular.ttf");
+}
+@font-face {
+  font-family: MarkGeoBold;
+  src: url("./fonts/MarkGEOCAPS-Bold.ttf");
+}
+@font-face {
+  font-family: MarkGeoLighter;
+  src: url("./fonts/MarkGEOCAPS-Light.ttf");
+}
+@font-face {
+  font-family: MarkGeoSemiBold;
+  src: url("./fonts/MarkGEOCAPS-SemiBold.ttf");
+}
+@font-face {
+  font-family: MarkGeoMedium;
+  src: url("./fonts/MarkGEOCAPS-Medium.ttf");
+}
+@font-face {
+  font-family: MarkBold;
+  src: url("./fonts/MarkGEO-Bold.ttf");
+}
+@font-face {
+  font-family: MarkMedium;
+  src: url("./fonts/MarkGEO-Medium.ttf");
+}
+@font-face {
+  font-family: MarkSemiBold;
+  src: url("./fonts/MarkGEO-SemiBold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f2f5;
+}
+.contentLoadPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0a83e0;
+}
+.fa-spinner {
+  font-size: 70px;
+  color: #fff;
+  animation: animationReload 3s linear infinite;
+}
+@keyframes animationReload {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(365deg);
+  }
+}

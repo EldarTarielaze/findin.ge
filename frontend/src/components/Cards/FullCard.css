@@ -1,0 +1,32 @@
+.feuNsm {
+  background-color: #29b24e !important;
+  color: #fff !important;
+}
+.bUqsBK {
+  background-color: #29b24e !important;
+  box-shadow: 0 0 1px 3px #29b24e !important;
+}
+.eMfTKo {
+  background-color: transparent !important;
+}
+.facebookIcon__root {
+  color: rgb(17, 82, 147);
+  font-size: 35px !important;
+  cursor: pointer;
+}
+.contentFBIcon {
+  display: flex;
+  width: 95%;
+  margin-top: 5px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contentCardingSystem__flexHave {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.rec-item-wrapper {
+  width: 100% !important;
+}

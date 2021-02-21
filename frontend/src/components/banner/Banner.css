@@ -1,0 +1,207 @@
+.banner {
+  background-image: url("https://scontent.ftbs6-1.fna.fbcdn.net/v/t1.0-9/125950617_106755724587582_1251106857253881572_o.jpg?_nc_cat=109&ccb=2&_nc_sid=e3f864&_nc_ohc=36vcHBHAGlwAX_FS5fp&_nc_ht=scontent.ftbs6-1.fna&oh=422fa10a132a8803bb4915d6370c4882&oe=5FE2DE2B") !important;
+  height: 50vh;
+  position: relative;
+}
+.banner__info {
+  background-color: #000;
+  width: 350px;
+  padding-top: 170px;
+  height: 50vh;
+}
+.ButtonContentMaker {
+  border: none;
+  outline: none;
+  height: 44px;
+  padding: 15px;
+  font-family: MarkGeoCaps;
+  color: #fff;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 7px;
+  background-color: #7a1dff;
+}
+.ButtonContentMaker:hover {
+  background-color: #fff;
+  color: #7a1dff;
+}
+.ParagraphContentStyle {
+  font-family: MarkGeoCaps;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+.div__classContainer {
+  transform: translateX(-100%);
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  height: 50vh;
+  transition: all ease 0.5s;
+}
+.Container__showCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+.Container__showCategories > h1 {
+  color: #fff;
+  font-family: MarkGeoMedium;
+  user-select: none;
+}
+.dropbtn {
+  background-color: #fff;
+  width: 184px;
+  font-size: 16px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  color: #3f4949;
+  margin-top: 30px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: MarkGeoMedium;
+  font-size: 13px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  line-height: 43px;
+}
+.garigebisTipi__containerClassCategories {
+  background-color: #fff;
+  width: 184px;
+  font-size: 16px;
+  margin-left: 15px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  color: #3f4949;
+  margin-top: 30px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: MarkGeoMedium;
+  font-size: 13px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  line-height: 43px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  overflow: auto;
+  width: 695px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 15px;
+  margin-top: 13px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+.faRotateTrue {
+  transform: rotate(180deg);
+}
+.Paragraph__contentForSectionsCategories {
+  font-family: MarkGeoMedium;
+  font-size: 13px;
+  color: #4d4d4d;
+}
+.containerButtons {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerButtons > button {
+  border: none;
+  height: 36px;
+  padding: 0 15px;
+  border-radius: 3px;
+  color: #4d4d4d;
+  font-family: MarkDefault;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  border: 1px solid #d6d6d6;
+  cursor: pointer;
+}
+.hrContainer__paragraphContentSectionCategories {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.saveContainer__forParagraphCategories {
+  background: #2884ff;
+  font-size: 12px;
+  font-family: MarkDefault;
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+.contentFlexEnd__categoriesSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.containerForFlexSectionCategories__div {
+  display: flex;
+  align-items: center;
+}
+.garigebisTipi__containerClassCategories > option {
+  background-color: #f1f4fa;
+}
+.garigebisTipi__containerClassCategories > option:hover {
+  font-size: 13px;
+  color: #4d4d4d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: MarkDefault;
+  cursor: pointer;
+  padding-right: 20px;
+}

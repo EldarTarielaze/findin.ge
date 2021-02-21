@@ -1,0 +1,150 @@
+.contentCardsInfo__app {
+  margin-top: 60px;
+  display: flex;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.firstContainer__CardsInfo {
+  max-width: 300px;
+  height: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(122, 29, 240, 0.15) 0,
+    rgba(122, 29, 240, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding-left: 15px;
+}
+.secondContainer__firstContentDiv {
+  max-width: 300px;
+  height: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(122, 29, 240, 0.15) 0,
+    rgba(122, 29, 240, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  padding-right: 120px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding-left: 15px;
+}
+.secondContainer__firstContentDiv:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(122, 29, 240, 0.15) 100%,
+    rgba(122, 29, 240, 0) 100%
+  );
+}
+.secondContainer__CardsInfo,
+.secondContainer__secondContentDiv {
+  max-width: 300px;
+  height: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(253, 86, 1, 0.15) 0,
+    rgba(253, 86, 1, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  padding-right: 80px;
+  margin-left: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding-left: 15px;
+}
+.thirdContainer__cardsInfo {
+  max-width: 300px;
+  height: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 170, 255, 0.15) 0,
+    rgba(0, 170, 255, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  margin-left: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding-left: 15px;
+}
+.fourContainer__cardsInfo {
+  max-width: 300px;
+  height: 100px;
+  background:  #2e86de;
+  font-weight: 700;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  padding-right: 70px;
+  margin-left: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding-left: 15px;
+}
+.iconHome__toCardInfo,
+.serviceImage__containerContentToCardInfo,
+.rocketImage__containerCardsInfo,
+.agentImage__containerforCardsInfo,
+.classForSearch__imageContainerContent {
+  height: 60px;
+  object-fit: contain;
+}
+.spanCard__infoContent__contentCards,
+.serviceContainer__divCardsInfo,
+.spanCard__infoContent__toRocketParagraph,
+.spanAgentCompanies__forGuysSpan,
+.containerForSearchResultationDocumentary {
+  font-family: 'FiraGO Regular', sans-serif;
+  font-size: 13px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.firstContainer__CardsInfo:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(122, 29, 240, 0.15) 100%,
+    rgba(122, 29, 240, 0) 100%
+  );
+}
+.secondContainer__CardsInfo:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(253, 86, 1, 0.15) 100%,
+    rgba(253, 86, 1, 0) 100%
+  );
+}
+.thirdContainer__cardsInfo:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 170, 255, 0.15) 100%,
+    rgba(0, 170, 255, 0) 100%
+  );
+}
+.fourContainer__cardsInfo:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(50, 62, 221, 0.15) 100%,
+    rgba(50, 62, 221, 0) 100%
+  );
+}
+.firstContainer__CardsInfo:hover > .spanCard__infoContent__contentCards {
+  font-weight: 600;
+}
+.secondContainer__CardsInfo:hover > .serviceContainer__divCardsInfo {
+  font-weight: 600;
+}
+.thirdContainer__cardsInfo:hover > .spanCard__infoContent__toRocketParagraph {
+  font-weight: 600;
+}
+.fourContainer__cardsInfo:hover > .spanAgentCompanies__forGuysSpan {
+  font-weight: 600;
+}
