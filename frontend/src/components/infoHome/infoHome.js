@@ -13,100 +13,6 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import CallIcon from "@material-ui/icons/Call";
 
-const NavbarContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  width: 100%;
-`;
-
-const NavbarLeftContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-const NavbarCenterContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-const ParagraphLinker = styled.p`
-  font-family: "BPG Mrgvlovani Caps", sans-serif;
-  font-weight: 700;
-  cursor: pointer;
-  margin-top: 5px;
-  font-size: 14px;
-  margin-left: 30px;
-  color: #26262a;
-  position: relative;
-  transition: all 0.2s ease-in-out;
-  &::after {
-    content: "";
-    background-color: #e67e22;
-    width: 0;
-    height: 4px;
-    display: block;
-    border-radius: 20px;
-    position: absolute;
-    bottom: -44.5px;
-  }
-  &:hover {
-    margin-top: 3px !important;
-    transition: all 0.2s ease;
-  }
-  &:hover::after {
-    width: 100%;
-    transition: all 0.2s ease-in-out;
-  }
-`;
-
-const ButtonContentNav = styled.button`
-  border: none;
-  outline: none;
-  border: 1px solid #e67e22;
-  height: 40px;
-  padding: 0 24px 0 16px;
-  transition: all 0.1s ease;
-  font-family: "BPG Mrgvlovani Caps", sans-serif;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  text-align: center;
-  font-weight: 700;
-  font-size: 11px;
-  padding-top: 3px;
-  &:hover {
-    background-color: #fad390;
-  }
-`;
-
-const ConnectButtonContent = styled.button`
-  border: none;
-  outline: none;
-  height: 40px;
-  border: 1px solid #e67e22;
-  margin-left: 20px;
-  padding: 0 24px 0 16px;
-  transition: all 0.1s ease;
-  font-family: "BPG Mrgvlovani Caps", sans-serif;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  text-align: center;
-  font-weight: 700;
-  font-size: 11px;
-  padding-top: 3px;
-  &:hover {
-    background-color: #fad390;
-  }
-`;
 const LightTooltip = withStyles((theme) => ({
   tooltip: {
     backgroundColor: theme.palette.common.white,
@@ -122,54 +28,14 @@ const LightTooltip = withStyles((theme) => ({
     border: "1px solid #18a745",
   },
 }))(Tooltip);
-const InfoHome = () => {
+export default function InfoHome(match) {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
   const onClickFunctionToShow = () => {
     setShowMoreInfo((google) => !google);
   };
   return (
     <>
-      <NavbarContainer>
-        <NavbarLeftContainer>
-          <Link to="/">
-            <img
-              src={Icon}
-              alt="Logo"
-              title="Logo"
-              className="logoImage__navbar"
-            />
-          </Link>
-          <div className="content__paragraphs">
-            <ParagraphLinker>სააგენტოები</ParagraphLinker>
-            <ParagraphLinker>დეველოპერები</ParagraphLinker>
-          </div>
-        </NavbarLeftContainer>
-        <NavbarCenterContainer>
-          <ButtonContentNav>
-            <AddCircleIcon className="iconAdd__Navbar" />
-            დამატება
-          </ButtonContentNav>
-          <ConnectButtonContent style={{ marginRight: "20px" }}>
-            <PersonIcon />
-            შესვლა
-          </ConnectButtonContent>
-          <Tooltip title="Georgia">
-            <IconButton aria-label="Georgia">
-              <img
-                src="https://www.myhome.ge/framework/templates/assets/img/flags/ka.svg"
-                alt="GEO"
-                title="GEO"
-                className="contentGEO__img"
-                style={{ width: "35px", cursor: "pointer" }}
-              />
-            </IconButton>
-          </Tooltip>
-        </NavbarCenterContainer>
-      </NavbarContainer>
-      <hr
-        style={{ border: "none", backgroundColor: "lightgray", height: "1px" }}
-      />
-      {/* Content For Users (Navbar down) */}
+    {console.log(match)}
       <div className="contentForImageZoom">
         <div className="imgContainerForLookUsers">
           <img
@@ -525,4 +391,3 @@ const InfoHome = () => {
     </>
   );
 };
-export default InfoHome;

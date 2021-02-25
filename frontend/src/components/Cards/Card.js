@@ -10,13 +10,17 @@ import DeckIcon from "@material-ui/icons/Deck";
 import Axios from "axios";
 import ApartmentIcon from "@material-ui/icons/Apartment";
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, matchPath } from "react-router-dom";
+import Banner from "../banner/Banner";
 
 class Card extends React.Component {
   constructor() {
     super();
-    this.state = { data: [] };
+    this.state = { 
+      data: []
+    };
   }
+
 
   async componentDidMount() {
     try {
@@ -31,10 +35,12 @@ class Card extends React.Component {
   render() {
     return (
       <>
+      
+      {/* <div className="cards__container"> */}
         {this.state.data.map((val, key) => {
           return (
-            <div className="ContainerCard">
-              <Link to={`/cardfd/${val.title}/${val.id}`}>
+            <div className="ContainerCard propCom">
+              <Link to={`/cardfd/${val.id}`}>
                 <figure>
                   <span
                     className="vipContent__class"
@@ -49,7 +55,7 @@ class Card extends React.Component {
                     src="https://www.monnaie.in/mobile-files/images/services/serv-title-img-mob.jpg"
                     alt="Image House"
                     title="Image House"
-                    className="imageHouse__class"
+                    className="imageHouse__class propSecComp"
                     id="imageHouse__id"
                     name="imageHouse"
                   />
@@ -139,6 +145,7 @@ class Card extends React.Component {
             </div>
           );
         })}
+        {/* </div> */}
       </>
     );
   }

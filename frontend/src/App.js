@@ -29,6 +29,7 @@ import Service from "./components/service/service";
 import Card from "./components/Cards/Card";
 import TestModule from "./TestModule";
 import FileUpload from "./FileUpload";
+import Navbar from "./components/navbar/Navbar";
 
 class App extends Component {
   async componentDidMount() {
@@ -91,37 +92,44 @@ class App extends Component {
       if (UserStore.isLoggedIn) {
         return (
           <>
+            <Navbar />
             <BrowserRouter>
               <Switch>
-                <Route path="/" exact component={AppInfo} />
-                <Route path="/add" component={AddProduct} />
-                <Route path="/agent" component={AgentComponent} />
-                <Route path="/service" component={Service} />
-                <Route path="/home/1" component={InfoHome} />
-                <Route path="/search" component={Card} />
-                <Route path="/imgu" component={FileUpload} />
-                <Route path="/cardfd/:id" component={TestModule} />
+                <Route exact path="/" exact component={AppInfo} />
+                <Route exact path="/add" component={AddProduct} />
+                <Route exact path="/agent" component={AgentComponent} />
+                <Route exact path="/service" component={Service} />
+                <Route exact path="/home/1" component={InfoHome} />
+                <Route exact path="/search" component={Card} />
+                <Route exact path="/imgu" component={FileUpload} />
+                <Route  path="/cardfd/:id" component={InfoHome} />
               </Switch>
             </BrowserRouter>
           </>
         );
       }
+
       return (
-        <div className="container">
-          <BrowserRouter>
-            <Switch>
-              <Route path="/" exact component={FullWeb} />
-              <Route path="/login" component={LoginForm} />
-              <Route path="/registration" component={Registration} />
-              <Route path="/forgotpassword" component={ForgotPassword} />
-              <Route path="/agent" component={AgentComponent} />
-              <Route path="/service" component={Service} />
-              <Route path="/home/1" component={InfoHome} />
-              <Route path="/search" component={Card} />
-              <Route path="/cardfd/:id" component={TestModule} />
-            </Switch>
-          </BrowserRouter>
-        </div>
+        <>
+          <div className="container">
+            <BrowserRouter>
+              <Switch>
+                <Route exact path="/" exact component={FullWeb} />
+                <Route exact path="/login" component={LoginForm} />
+                <Route exact path="/registration" component={Registration} />
+                <Route
+                  exact
+                  path="/forgotpassword"
+                  component={ForgotPassword}
+                />
+                <Route exact path="/service" component={Service} />
+                <Route exact path="/home/1" component={InfoHome} />
+                <Route exact path="/search" component={Card} />
+                <Route exact path="/cardfd/:id" component={InfoHome} />
+              </Switch>
+            </BrowserRouter>
+          </div>
+        </>
       );
     }
   }

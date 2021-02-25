@@ -125,9 +125,6 @@
   margin-right: 10px;
   transition: all 0.2s ease;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   border: 1px solid rgba(217, 217, 217, 0.6);
 }
 .ContainerCard:hover {
@@ -139,4 +136,19 @@
 }
 .rec-item-wrapper {
   width: 100% !important;
+}
+.propCom {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  width: 320px;
+  padding: 0 !important;
+  margin-left: 40px;
+  flex-wrap: wrap !important;
+  margin-top: 20px !important;
+  height: 320px;
+}
+.propSecComp {
+  width: 290px;
+  height: 165px;
 }
